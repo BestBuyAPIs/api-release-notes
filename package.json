@@ -1,0 +1,20 @@
+{
+  "name": "api-release-notes",
+  "version": "1.0.0",
+  "description": "All release notes for the develoer.bestbuy.com API",
+  "main": "build-changelog.js",
+  "scripts": {
+    "test": "standard",
+    "start": "node . "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BestBuyAPIs/api-release-notes.git"
+  },
+  "author": "developer.bestbuy.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BestBuyAPIs/api-release-notes/issues"
+  },
+  "homepage": "https://github.com/BestBuyAPIs/api-release-notes#readme"
+}
