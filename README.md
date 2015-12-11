@@ -1,5 +1,5 @@
 
-# [View CHANGELOG](changelog.md)
+# [View CHANGELOG](CHANGELOG.md)
 
 ## How to Add Release Notes to the Change Log
 
