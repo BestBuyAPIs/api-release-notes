@@ -2,6 +2,13 @@
 All notable changes to the Best Buy API will be documented in this file.
 
 
+<div class="log-toc">
+
+## Releases
+ - [[R11.1] - 2011-05-01](#user-content-r11-1-2011-05-01)
+</div>
+<div class="log-entry">
+
 ## [R11.1] - 2011-05-01
 
 ### Added
@@ -10,3 +17,4 @@ All notable changes to the Best Buy API will be documented in this file.
   - `preowned` - "Used" products
   - `digital` - Products available via download (not available in stores)
 
+</div>
