@@ -18,6 +18,6 @@ fs.readFile(filePath, function (err, data) {
   if (err) {
     throw err;
   }
-  var $ = marky(data.toString(), {sanitize: false});
+  var $ = marky(data.toString(), {sanitize: false, prefixHeadingIds: false});
   process.stdout.write($.html());
 });

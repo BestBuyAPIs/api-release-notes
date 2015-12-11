@@ -5,11 +5,11 @@ All notable changes to the Best Buy API will be documented in this file.
 <div class="log-toc">
 
 ## Releases
- - [[R11.1] - 2011-05-01](#user-content-r11-1-2011-05-01)
+ - [R11.1 - 2011-05-01](#r11-1---2011-05-01)
 </div>
 <div class="log-entry">
 
-## [R11.1] - 2011-05-01
+## R11.1 - 2011-05-01
 
 ### Added
 - Three new **[Products API](https://bestbuyapis.github.io/api-documentation/#products-api)** attributes:
