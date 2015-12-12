@@ -2,11 +2,6 @@
 All notable changes to the Best Buy API will be documented in this file.
 
 
-<div class="log-toc">
-
-## Releases
- - [R11.1 - 2011-05-01](#r11-1---2011-05-01)
-</div>
 <div class="log-entry">
 
 ## R11.1 - 2011-05-01
