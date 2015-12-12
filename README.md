@@ -1,6 +1,6 @@
 
 # [View CHANGELOG](CHANGELOG.md)
-
+## [View list of CHANGELOG entries](notes)
 ## How to Add Release Notes to the Change Log
 
 - For each release, the notes should be put in their own markdown file and saved to the `notes` directory.
