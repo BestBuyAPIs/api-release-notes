@@ -23,9 +23,9 @@ notes.sort().reverse().forEach(function (note) {
       console.warn('First line of ' + note + ' does not match appropriate format');
       process.exit(1);
     }
-    changelogData += '<div class="log-entry">\n\n';
+    changelogData += '<section class="log-entry">\n\n';
     changelogData += changelogEntry + '\n';
-    changelogData += '</div>\n';
+    changelogData += '</section>\n';
   }
 });
 fs.writeFileSync('CHANGELOG.md', changelogHeader + changelogData, 'utf8');
