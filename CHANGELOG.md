@@ -4,6 +4,16 @@ All notable changes to the Best Buy API will be documented in this file.
 
 <section class="log-entry">
 
+## R16.1 - 2016-01-01
+### Changed 
+Due to alterations in our source systems, the following changes have been made in our **[Products API](https://bestbuyapis.github.io/api-documentation/#products-api)**:   
+- Bundle SKUs (SKUs that include multiple products in the purchase, e.g., a DSLR camera, lens and case sold together where type=bundle) will not include shipping data in the response.     
+- `accessories` attribute is now deprecated and will no longer contain suggested accessory SKUs. 
+- `bestBuyItemID` is a deprecated attribute and will return a null value. This is a field that was hidden by default and should not impact many customers. Please use the sku identifier as a unique identifier for all Best Buy products.
+
+</section>
+<section class="log-entry">
+
 ## R15.15 - 2015-10-01
 ### Changed
 - Added `shippingLevelsOfService` attribute to **[Products API](https://bestbuyapis.github.io/api-documentation/#products-api)** in accordance with changes made to shipping options on BESTBUY.COM
