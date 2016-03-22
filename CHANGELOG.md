@@ -4,6 +4,12 @@ All notable changes to the Best Buy API will be documented in this file.
 
 <section class="log-entry">
 
+## R16.2 - 2016-03-01
+### Changed 
+We have deprecated the bestBuyItemID attribute. We will be deleting it throughout Best Buy systems and forcing the value for that attribute to an empty string. 
+</section>
+<section class="log-entry">
+
 ## R16.1 - 2016-01-01
 ### Changed 
 Due to alterations in our source systems, the following changes have been made in our **[Products API](https://bestbuyapis.github.io/api-documentation/#products-api)**:   
