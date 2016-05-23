@@ -4,9 +4,24 @@ All notable changes to the Best Buy API will be documented in this file.
 
 <section class="log-entry">
 
+## R17.1 - 2016-05-30
+### Changed
+Shipping cost will now be calculated based on LevelOfShipping ID rather than LevelOfShipping name.
+
+</section>
+<section class="log-entry">
+
 ## R16.2 - 2016-03-01
 ### Changed 
 We have deprecated the bestBuyItemID attribute. We will be deleting it throughout Best Buy systems and forcing the value for that attribute to an empty string. 
+
+</section>
+<section class="log-entry">
+
+## R16.2 - 2016-03-01
+### Changed 
+We have deprecated the bestBuyItemID attribute. We will be deleting it throughout Best Buy systems and forcing the value for that attribute to an empty string. 
+
 </section>
 <section class="log-entry">
 
