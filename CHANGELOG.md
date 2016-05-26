@@ -6,6 +6,13 @@ All notable changes to the Best Buy API will be documented in this file.
 
 ## R17.1 - 2016-05-30
 ### Changed
+- Shipping cost will now be calculated based on LevelOfShipping ID rather than LevelOfShipping name. Users will not see a difference in the response document.
+- Certain products available for presale have displayed a dummy release date of 12/31/YYYY. To avoid customer confusion, this date will now pass as null.
+</section>
+<section class="log-entry">
+
+## R17.1 - 2016-05-30
+### Changed
 Shipping cost will now be calculated based on LevelOfShipping ID rather than LevelOfShipping name.
 
 </section>
@@ -526,4 +533,11 @@ This will impact applications that provide filtering using the top level attribu
   - `Preowned`
   - `Digital Products` 
 
+</section>
+<section class="log-entry">
+
+## R17.1 - 2016-05-30
+### Changed
+- Shipping cost will now be calculated based on LevelOfShipping ID rather than LevelOfShipping name. Users will not see a difference in the response document.
+- Certain products available for presale have displayed a dummy release date of 12/31/YYYY. To avoid customer confusion, this date will now pass as null.
 </section>
