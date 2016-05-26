@@ -13,7 +13,11 @@ All notable changes to the Best Buy API will be documented in this file.
 
 ## R17.1 - 2016-05-30
 ### Changed
+<<<<<<< HEAD
 Shipping cost will now be calculated based on LevelOfShipping ID rather than LevelOfShipping name.
+=======
+Shipping cost will now be calculated based on LevelOfShipping ID rather than LevelOfShipping name. This change will not impact what users see in the response document.  
+>>>>>>> master
 
 </section>
 <section class="log-entry">
