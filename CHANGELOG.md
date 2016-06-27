@@ -4,25 +4,11 @@ All notable changes to the Best Buy API will be documented in this file.
 
 <section class="log-entry">
 
-## R17.1 - 2016-05-30
+## R16.3 - 2016-05-30
 ### Changed
-<<<<<<< 2dad4514876f034090f95e8b14ef82bb8caead34
-- Shipping cost will now be calculated based on shippingLevelsOfService `serviceLevelId` rather than `serviceLevelName`. Users will not see a difference in the response document.
-- Certain products available for presale have displayed a dummy `releaseDate` of 12/31/YYYY. To avoid customer confusion, this date will now pass as null.
-=======
 - Shipping cost will now be calculated based on LevelOfShipping ID rather than LevelOfShipping name. Users will not see a difference in the response document.
 - Certain products available for presale have displayed a dummy release date of 12/31/YYYY. To avoid customer confusion, this date will now pass as null.
-</section>
-<section class="log-entry">
 
-</section>
-<section class="log-entry">
-
-## R16.2 - 2016-03-01
-### Changed 
-We have deprecated the bestBuyItemID attribute. We will be deleting it throughout Best Buy systems and forcing the value for that attribute to an empty string. 
-
->>>>>>> Removing some unneeded text
 </section>
 <section class="log-entry">
 
