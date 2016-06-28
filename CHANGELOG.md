@@ -4,6 +4,17 @@ All notable changes to the Best Buy API will be documented in this file.
 
 <section class="log-entry">
 
+## R99.9 - 9999-99-99
+
+### Added
+- An attribute called `coolness` was added.
+
+### Changed
+- The value of `something` changed from a string to an integer.
+
+</section>
+<section class="log-entry">
+
 ## R17.1 - 2016-05-30
 ### Changed
 - Shipping cost will now be calculated based on shippingLevelsOfService `serviceLevelId` rather than `serviceLevelName`. Users will not see a difference in the response document.
