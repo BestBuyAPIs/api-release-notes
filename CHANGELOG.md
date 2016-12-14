@@ -4,6 +4,17 @@ All notable changes to the Best Buy API will be documented in this file.
 
 <section class="log-entry">
 
+## R17.2 - 2016-12-14
+### Changed
+- Searching for an unrecognized query parameters will no longer return a 400 error.
+- Product searches now include more useful information, including available offers and free items.
+- Querying a nested attribute such as mobile carrier terms or mobile plan features will no longer return a 500 error.
+- Searching strings containing special characters such as `-` or `*` will no longer return a 500 error.
+- We have expanded the number of products available when querying with `friendsAndFamilyPickup`.
+
+</section>
+<section class="log-entry">
+
 ## R16.3 - 2016-05-30
 ### Changed
 - Shipping cost will now be calculated based on LevelOfShipping ID rather than LevelOfShipping name. Users will not see a difference in the response document.
