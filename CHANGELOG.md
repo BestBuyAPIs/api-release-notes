@@ -4,7 +4,15 @@ All notable changes to the Best Buy API will be documented in this file.
 
 <section class="log-entry">
 
-## R17.2 - 2016-12-14
+## R17.1 - 2017-03-24
+
+### Changed
+- Image links in our Catalog APIs are now served as SSL (e.g., https://img.bbystatic.com/BestBuy_US/images/products/...)
+</section>
+<section class="log-entry">
+
+## R16.5 - 2016-12-14
+
 ### Changed
 - Searching for an unrecognized query parameters will no longer return a 400 error.
 - Product searches now include more useful information, including available offers and free items.
@@ -15,11 +23,24 @@ All notable changes to the Best Buy API will be documented in this file.
 </section>
 <section class="log-entry">
 
+## R16.4 - 2016-06-30
+### Added
+- Expanding on the existing `offers.type` of `digital_insert`, `gift_with_purchase` is now also being exposed. This will help API consumers identify special deals where purchase of an item entitles the end-user to another item at a discount
+
+### Changed
+- Before this release, if an API query string included an unknown parameter the system would return an HTTP 400 error. Although some very intelligent API specs prefer the previous pattern (such as **https://github.com/cloudfoundry/cc-api-v3-style-guide#query-parameters**), we've made a change to ignore unknown parameters in hopes that applying the Robustness principle (**https://en.wikipedia.org/wiki/Robustness_principle**) to the API simplifies adoption of new parameters.
+- The API is working on reducing the number of similar URL fields in our results, with the goal of reducing from 8 fields to 2. This release is the first step in that effort, moving URLs from pointing to www.bestbuy.com/... to api.bestbuy.com/click... This change will enable future features not previously possible, such as expanded Add To Cart functionality and automatic attachment of affiliate codes. A newsletter and blog post will be released soon to elaborate on this change.
+
+### Bug Fix
+- From 6/16 through 6/23, several products in the API were returning `addToCart` as blank. This has been fixed.
+
+</section>
+<section class="log-entry">
+
 ## R16.3 - 2016-05-30
 ### Changed
-- Shipping cost will now be calculated based on LevelOfShipping ID rather than LevelOfShipping name. Users will not see a difference in the response document.
-- Certain products available for presale have displayed a dummy release date of 12/31/YYYY. To avoid customer confusion, this date will now pass as null.
-
+- Shipping cost will now be calculated based on shippingLevelsOfService `serviceLevelId` rather than `serviceLevelName`. Users will not see a difference in the response document.
+- Certain products available for presale have displayed a dummy `releaseDate` of 12/31/YYYY. To avoid customer confusion, this date will now pass as null.
 </section>
 <section class="log-entry">
 
