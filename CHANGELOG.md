@@ -11,6 +11,13 @@ All notable changes to the Best Buy API will be documented in this file.
 </section>
 <section class="log-entry">
 
+## R17.2 - 2017-04-03
+
+### Changed
+- The `beta/products/<sku>/similar...` endpoint is no longer active. Queries to this endpoint will 404. The source for that data was deprecated. 
+</section>
+<section class="log-entry">
+
 ## R17.1 - 2017-03-24
 
 ### Changed
