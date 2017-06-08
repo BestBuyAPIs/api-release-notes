@@ -4,6 +4,13 @@ All notable changes to the Best Buy API will be documented in this file.
 
 <section class="log-entry">
 
+## R17.3 - 2017-06-06
+
+### Added
+- You can now query for near real time store availability on a per-SKU basis. You can query either based on `storeId` or on `postalCode.` Complete information is available in our documentation: https://bestbuyapis.github.io/api-documentation/#in-store-availability
+</section>
+<section class="log-entry">
+
 ## R17.2 - 2017-04-03
 
 ### Changed
